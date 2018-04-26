@@ -1,0 +1,51 @@
+.picker-header {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px 20px 40px;
+}
+
+.picker-avatars {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transition: transform 500ms;
+  transform: scale(1);
+}
+
+.picker-start {
+  padding: 10px 0px;
+  background: #39f;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  width: 180px;
+  margin: 40px auto;
+  cursor: pointer;
+  transition: 120ms;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.picker-root.start .picker-avatars {
+  transform: scale(2);
+}
+
+.picker-root.start .avatar-root {
+  margin: 10px -30px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.picker-root.start .picker-start {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.picker-start.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.picker-start:hover {
+  background: #248;
+}

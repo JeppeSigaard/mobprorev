@@ -1,0 +1,18 @@
+.winner-root {
+  padding: 100px;
+  min-width: 400px;
+  margin-top: -100px;
+}
+.winner-root .avatar-root {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
+
+.winner-title {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0px 20px 0px;
+  font-weight: normal;
+  text-transform: uppercase;
+}

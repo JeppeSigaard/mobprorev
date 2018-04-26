@@ -1,0 +1,15 @@
+.app-bg {
+  position: absolute;
+  background-image: url(/images/conf.gif);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 600ms;
+  transition-delay: 500ms;
+}
+
+.type-winner .app-bg {
+  opacity: 1;
+}

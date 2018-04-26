@@ -1,0 +1,22 @@
+.roulette-root {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  top: -15px;
+  background: inherit;
+}
+
+.roulette-root > div {
+  height: 120px;
+  width: 120px;
+  margin: 10px;
+}
+
+.roulette-root .avatar-root {
+  width: 100%;
+  height: 100%;
+  transition: none;
+  margin: 0;
+  transform: none;
+}
